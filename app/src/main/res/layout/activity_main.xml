@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Communication"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp" />
+
+    <!-- Button to Start Server -->
+    <Button
+        android:id="@+id/btnStartServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start as Server"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Button to Start Client -->
+    <Button
+        android:id="@+id/btnStartClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect as Client"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Button to Send Data -->
+    <Button
+        android:id="@+id/btnSendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Output Display Area -->
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting for connection..."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
